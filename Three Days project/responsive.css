@@ -1,0 +1,156 @@
+@media only screen and (min-width:300px) and (max-width:750px){
+    .main_manu {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .main_manu ul li {
+        margin-left: 5px;
+        position: relative;
+    }
+    .main_manu ul li a {
+        font-size: 14px;
+    }
+    .main_manu ul li::after {
+        position: absolute;
+        height: 13px;
+        right: -5px;
+    }
+    .catagori {
+        width: 100%;
+    }
+    .weakly_offer_catagoris {
+        width: 100%;
+
+    }
+    .product {
+        width: 90%;
+        height: 400px;
+        margin: 22px;
+    }
+    .weakly_offer {
+        margin: 20px;
+    }
+    .card_inner {
+        height: 260px;
+    }
+    .mini_card {
+        width: 45%;
+        margin: 9px;
+    }
+    .mini_card_title {
+        height: 100%;
+    }
+    .card_description {
+        height: 100%;
+
+    }
+    .request_card {
+        width: 90%;
+        margin: 21px;
+    }
+    .request_img img {
+        width: 90%;
+        margin: 10px;
+    }
+    .one_request_card {
+        width: 90%;
+        margin: 20px;
+    }
+    .one_request_card p {
+        font-size: 20px;
+    }
+    .btn_success {
+        font-size: 15px;
+    }
+    .bottom_product_card {
+        width: 85%;
+        height: 100%;
+        margin: 30px;
+    }
+    .footer {
+        width: 90%;
+        margin: 20px;
+    }
+        
+}
+
+@media only screen and (min-width:200px) and (max-width:480px){
+    ul{
+        padding: 0;
+        margin: 0;
+    }
+    .search_area input {
+        width: 75%;
+    }
+    .search_area input[type='submit'] {
+        width: 23%;
+    }
+    .main_manu ul li {
+        margin-left: 10px;
+    }
+    .main_manu ul li a {
+        font-size: 10px;
+    }
+    .main_manu ul li::after {
+        height: 10px;
+        right: -8px;
+        top: 7px;
+    }
+    .catagori {
+        width: 98%;
+        margin: 3px;
+    }
+    .hero_card_title p {
+        font-size: 17px;
+        text-align: center;
+    }
+    .weakly_offer_catagoris {
+        width: 98%;
+        margin: 3px;
+    }
+    .weakly_offer p {
+        font-size: 14px;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .product {
+        width: 90%;
+        margin: 15px;
+    }
+    .mini_card {
+        width: 90%;
+        margin: 15px;
+    }
+    .request_card {
+        width: 98%;
+        margin: 4px;
+    }
+    .one_request_card {
+        width: 98%;
+        margin: 2px;
+    }
+    .one_request_card p {
+        font-size: 18px;
+    }
+    .one_request_card input[type="submit"] {
+        width: 60%;
+    }
+    .btn_success {
+        padding: 10px;
+        font-size: 15px;
+    }
+    .box {
+        font-size: 20px;
+    }
+    .bottom_product_card {
+        width: 90%;
+
+        margin: 15px;
+    }
+    .footer {
+        width: 90%;
+        margin: 15px;
+    }
+    
+
+}

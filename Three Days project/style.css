@@ -1,0 +1,560 @@
+/* ========================
+common css
+======================== */
+body{
+    background-color: rgb(221, 205, 142);
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    line-height: 1.3em;
+    font-family: "Times New Roman", Times, serif;
+}
+.container{
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
+}
+.alignleft{
+    float: left;
+    margin-right: 15px;
+}
+.alignright{
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter{
+    display: block;
+    margin: 0 auto 15px;
+}
+/* ==========================
+header section css
+========================== */
+.header_area{
+    width: 100%;
+}
+#id_header_area{
+    background:cadetblue;
+    width: 100%;
+    padding: 50px 18px 18px 18px;
+    box-sizing: border-box;
+}
+.inner_header{
+    overflow: hidden;
+    
+}
+.search_area{
+    width: 100%;
+}
+.search_area form{
+    background: white;
+    max-width: 960px;
+    width: 100%;
+}
+
+.search_area input{
+    border: 0px solid;
+    width: 80%;
+    float: left;
+    padding: 1%;
+    color:black;
+}
+.search_area input[type='submit']{
+    float: right;
+    width: 18%;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color: rgb(114, 53, 9);
+}
+.header_manu{
+    overflow: hidden;
+}
+.main_manu{
+    background: rgb(224, 171, 133);
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+}
+.main_manu ul{
+    margin: 0;
+    list-style: none;
+    text-align: left;
+}
+.main_manu ul li{
+    display: inline-block;
+    margin-left: 20px;
+    position: relative;
+}
+
+.main_manu ul li::after{
+    position: absolute;
+    background: white;
+    content: "";
+    width: 1px;
+    height: 20px;
+    right: -10px;
+    top: 2px;
+}
+.main_manu ul li:last-child::after{
+    display: none;
+}
+.main_manu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.main_manu ul li a:hover{
+    text-transform: uppercase;
+}
+/* ====================================
+hero area
+==================================== */
+.hero_area{
+    width: 100%;
+    
+}
+.inner_hore{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    
+}
+.catagori{
+    box-shadow: 10px 10px 5px grey;
+    background: white;
+    border: 1px solid wheat;
+    width: 33%;
+    float: left;
+    border-radius: 5px;
+    transition: 0.9s;
+    box-sizing: border-box;
+
+}
+.catagori:hover{
+    transform: scale(1.005);
+    
+}
+.catagori h2{
+    margin: 15px;
+    text-align: center;
+    
+}
+.catagori p{
+    padding: 20px;
+    text-align: justify;
+    
+}
+
+.hero_card_title{
+    background: white;
+    padding: 0;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.hero_card_title p{
+    font-size: 25px;
+    color: black;
+    margin: 0;
+}
+.catagori ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.catagori ul li{
+    padding: 5px;
+    background-color: white;
+    border-bottom: 1px solid rgb(223, 173, 173);
+    font-size: 20px;
+    
+}
+.catagori ul li a{
+    text-decoration: none;
+    color: black;
+}
+.catagori ul li:last-child{
+    border: none;
+}
+
+.weakly_offer_catagoris{
+    padding: 5px;
+    background: white;
+    width: 64%;
+    float: right;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px grey;
+    box-sizing: border-box;
+}
+.weakly_offer{
+    background: white;
+    border: 1px solid wheat;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.weakly_offer p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.weakly_card{
+    overflow: hidden;
+}
+/* ================================
+weakly card area
+================================= */
+.product{
+    float: left;
+    background: white;
+    border: 1px solid wheat;
+    width: 199px;
+    height: 305px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+.product:hover{
+    transform: scale(1.04);
+}
+.card_title{
+    height: 40px;
+    padding-bottom: 10px;
+    background: white; 
+    box-sizing: border-box; 
+}
+.card_title p{
+    margin: 0;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(161, 104, 104);
+}
+.card_inner{
+    height: 180px;
+    box-sizing: border-box;
+}
+.card_inner img{
+    width: 100%;
+    height: 100%;
+}
+.card_footer{
+    margin: 0;
+    background: white;
+    padding: 7px;
+    height: 83px;
+    box-sizing: border-box;
+}
+.card_footer p{
+    font-size: 15px;
+    color: black;
+}
+/* ================================
+top card area
+================================= */
+#top_product_area{
+    background:white;
+    width: 100%;
+    padding: 2px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+.top_product{
+    width: 100%;
+    clear: both;
+}
+.card_area{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.mini_card{
+    background: white;
+    border: 1px solid wheat;
+    float: left;
+    width: 223px;
+    margin: 10px;
+    border-radius: 5px;
+    transition: 0.9s;
+    box-sizing: border-box;
+
+
+}
+.mini_card:hover{
+    transform: scale(1.06);
+}
+.mini_card_title{
+    width: 100%;
+    height: 40px;
+    background: white;
+    padding: 0;
+}
+.mini_card_title p{
+    margin: 0;
+    padding: 5px;
+    font-size: 25px;
+    color: rgb(141, 87, 87);
+}
+.inner_card_img{
+    height: 180px;
+}
+.inner_card_img img{
+    width: 100%;
+    height: 100%;
+}
+.card_description{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 80px;
+    background: white;
+    color: rgb(145, 100, 100);
+    
+}
+.card_description p{
+    margin: 0;
+    font-size: 15px;
+    padding: 5px;
+}
+/* ================================
+request area 
+================================ */
+.request_area{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    clear: both;
+    box-sizing: border-box;
+}
+#request_top_area{
+    width: 100%;
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.mini_request{
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.request_card{
+    width: 45%;
+    float: left;
+    
+}
+.request_img{
+    width: 100%;
+}
+.request_img img{
+    width: 90%;
+    height: 0 auto;
+    border-radius: 5px;
+    border: 5px solid wheat;
+    transition: 0.8s;
+}
+.request_img img:hover{
+    transform: scale(1.05);
+}
+.one_request_card{
+    width: 50%;
+    margin: 5px;
+    float: right;
+    box-sizing: border-box;
+}
+.one_request_card p{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+.one_request_card form{
+    overflow: hidden;
+}
+.one_request_card input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+.one_request_card input[type="submit"]{
+    width: 32%;
+    padding: 10px;
+    background-color: rgb(202, 122, 66);
+    border-radius: 8px;
+    font-weight: bolder;
+}
+/* ================================
+Box and Button area section
+================================ */
+.top_btn{
+    width: 100%;
+}
+.btn_success{
+    background: white;
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: rgb(141, 104, 104);
+    box-sizing: border-box;
+}
+.text_area{
+    width: 100%;
+    background: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: rgb(143, 90, 90);
+    padding: 10px;
+    font-size: 22px;
+    line-height: 1.3em;
+    box-sizing: border-box;
+
+}
+.box{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background: white;
+    height: 200px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(131, 89, 89);
+    text-align: center;
+    padding: 1px;
+}
+
+/* ================================
+bottom product card
+================================ */
+
+#inner_bottom_product{
+    background:white;
+    width: 100%;
+    padding: 2px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.bottom_product{
+    width: 100%;
+    clear: both;
+}
+.inner_bottom_product{
+    overflow: hidden;
+
+}
+.bottom_product_card{
+    float: left;
+    width: 275px;
+    padding: 10px;
+    height: 360px;
+    background: white;
+    margin: 25px;
+    border: 1px solid rgb(165, 107, 65);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.card_img{
+    height: 235px;
+}
+.card_img img{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    transition: 0.8s;
+}
+.card_img img:hover{
+    transform: scale(1.05);
+}
+.card_des{
+    width: 100%;
+    height: 113px;
+    background: white;
+    color: rgb(138, 79, 79);
+    box-sizing: border-box;
+}
+.card_des p{
+    margin: 0;
+    font-size: 15px;
+}
+
+/* ================================
+footer area section
+================================ */
+
+.footer_area{
+    background: rgb(224, 171, 133);;
+}
+.inner_footer{
+    clear: both;
+}
+.footer_section{
+    overflow: hidden;
+}
+.footer{
+    width: 326px;
+    float: left;
+}
+.footer h2{
+    margin: 0;
+    font-size: 25px;
+    color: rgb(77, 47, 47);
+    margin-top: 5px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.border{
+    background: rgb(207, 150, 108);
+    width: 300px;
+    height: 1px;
+    margin-top: 3px;
+
+}
+ .footer p{
+     margin: 0;
+     font-size: 18px;
+     color: rgb(77, 47, 47);
+     margin-top: 5px;
+     cursor: pointer;
+     font-weight: bolder;
+     margin-left: 5px;
+ }
+.footer p a{
+    text-decoration: none;
+    color: rgb(77, 47, 47);
+    margin-top: 5px;
+}
+.copyright_secton{
+    overflow: hidden;
+}
+.coppy_border{
+    background: rgb(202, 122, 66);
+    width: 100%;
+    height: 2px;
+    margin-top: 15px;
+}
+.copy_section{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: rgb(77, 47, 47);
+    font-size: 18px;
+}
+.copy_section p{
+    margin: 0;
+}
+
